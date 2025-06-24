@@ -5,11 +5,14 @@
 ![Static Badge](https://img.shields.io/badge/supports-vencord-red?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/supports-betterdiscord-navy?style=for-the-badge)
 
-> [!IMPORTANT]
-> Yes, Discord has ruined everything. It is unlikely that I will be able to fix the snippets in their current condition.
+> [!NOTE]
+> This repository is a fork of the [original one](https://github.com/SEELE1306/CSS-Snippets) which has been unfortunately archived. I'll try to keep it up-to-date, as I use a few of those snippets myself, but I'm not promising anything with my poor knowledge of Discord's CSS and time unavailability.
+
+> [!CAUTION]
+> **UserPanel** is currently not working properly. Fix is planned.
 
 > [!WARNING]
-> A recent Discord update has completely revamped the profile popouts and sections, making the following snippets no longer usable: **BetterProfiles, UserOptions**. These will be removed for the time being.
+> A recent *(written on 26th of June 2024)* Discord update has completely revamped the profile popouts and sections, making the following snippets no longer usable: **BetterProfiles, UserOptions**. These will be removed for the time being.
 
 A compilation of CSS snippets for Discord and its custom clients.
 
@@ -27,7 +30,7 @@ See [Update Checklist](./Update%20Checklist.md) to see which snippets have been 
 | [ChatBubbles](Snippets/ChatBubbles/) | Adds a chat bubble around messages. Different colours are available for normal, replying, mentioned and automod messages. | <img valign='middle' alt='ChatBubbles' src='./docs/_media/ChatBubbles.png'/> |
 | [GuildBoost](Snippets/GuildBoost/) | Replaces the boost bar in guilds with a more appealing indicator | <img valign='middle' alt='GuildBoost' src='./docs/_media/GuildBoost.png' height='200px'/> |
 | [MessageSection-v2](Snippets/MessageSection/v2/) | Aligns the "Message Section" better and hides its icons a hover menu | <img valign='middle' alt='MessageSection-v2' src='./docs/_media/MessageSection-v2_01.png'/> <img valign='middle' alt='MessageSection-v2' src='./docs/_media/MessageSection-v2_02.png'/> |
-| [MessageTypes](Snippets/MessageUltilities/MessageTypes/) | Includes the message types & actions with the username. Currently available in English and German | <img valign='middle' alt='MessageTypes' src='./docs/_media/MessageTypes.png'/> |
+| [MessageTypes](Snippets/MessageUltilities/MessageTypes/) | Includes the message types & actions with the username. Currently available in `Czech`, `English` and `German` | <img valign='middle' alt='MessageTypes' src='./docs/_media/MessageTypes.png'/> |
 | [TimestampBubbles](Snippets/MessageUltilities/TimestampBubbles/) | Applies a bubble styling to message timestamps | <img valign='middle' alt='TimestampBubbles' src='./docs/_media/TimestampBubbles.png'/> |
 | [Username](Snippets/MessageUltilities/Username/) | Applies a bubble to usernames that abide by role color | <img valign='middle' alt='Username' src='./docs/_media/Username.png'/> <img valign='middle' alt='Username' src='./docs/_media/Username_ext.png'/>|
 | [OnekoDM](Snippets/OnekoDM/) | Replaces the discord logo with Oneko! | <img valign='middle' alt='OnekoDM' src='./docs/_media/OnekoDM.png'/> |
@@ -80,6 +83,8 @@ If your client is not [Vesktop](https://github.com/Vencord/Vesktop), the snippet
 </details>
 
 ## Special thanks to
+
+[Aoi](https://github.com/SEELE1306) for creating these lovely snippets ❤️
 
 [ant0n-0x0000](https://github.com/ant0n-0x0000) for helping out with the snippets' descriptions!
 

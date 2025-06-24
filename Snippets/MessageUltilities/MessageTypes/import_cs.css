@@ -1,0 +1,62 @@
+/*
+ * @name MessageTypes_CS
+ * @author SEELE1306, CichyCze
+ * @authorLink https://github.com/SEELE1306, https://github.com/CichyCze
+ * @description Includes the message types & actions with the username
+ * @version 1.0.0
+ * @authorId 518795791318384647, 386841344171048960
+ * @discord seele1306, cichycze
+ */
+
+/* Message types (CZECH) */
+/* Removes the edited sign */
+.edited_c19a55 {
+  font-size: 0;
+}
+
+.contents_c19a55 .username_c19a55::after {
+  content: " píše:";
+}
+
+.message__5126c:has(.edited_c19a55) .contents_c19a55 .username_c19a55::after {
+  content: " píše a upravuje:";
+}
+
+.message__5126c:has(.mediaAttachmentsContainer__242e2, .embed__623de)
+  .contents_c19a55
+  .username_c19a55::after {
+  content: " posílá přílohu/y:";
+}
+
+.message__5126c:has(.stickerAsset__31fc2)
+  .contents_c19a55
+  .username_c19a55::after {
+  content: " posílá samolepku:";
+}
+
+.message__5126c:has(.emoji.jumboable) .contents_c19a55 .username_c19a55::after {
+  content: " posílá emotikon(y):";
+}
+
+.hasReply_c19a55 .contents_c19a55 .username_c19a55::after {
+  content: " odpovídá:";
+}
+
+.message__5126c.hasReply_c19a55:has(.edited_c19a55)
+  .contents_c19a55
+  .username_c19a55::after {
+  content: " odpovídá a upravuje:";
+}
+
+.mentioned__5126c .contents_c19a55 .username_c19a55::after {
+  content: " zmiňuje:";
+}
+
+.mentioned__5126c:has(.edited_c19a55) .contents_c19a55 .username_c19a55::after {
+  content: " zmiňuje a upravuje:";
+}
+
+/* Add color to extra elements */
+.username_c19a55::after {
+  color: var(--text-muted);
+}
