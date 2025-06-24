@@ -3,7 +3,7 @@
  * @author SEELE1306
  * @authorLink https://github.com/SEELE1306
  * @description Applies a bubble to usernames that abide by role color
- * @version 1.0.8
+ * @version 1.0.9
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -39,7 +39,6 @@
 [class^="repliedMessage_"] > .username_c19a55,
 .member__5d473 .username_d272d6 {
   filter: brightness(1.2);
-  background: color-mix(in srgb, currentColor 20%, transparent);
   border: calc(1px * var(--enable-border)) solid;
   /*font-weight: bold;*/
   margin-right: 4px;
@@ -47,13 +46,31 @@
   border-radius: 6px;
   display: inline-flex;
 
+  &:is(.twoColorGradient_e5de78)::after {
+    background: linear-gradient(to right, rgb(from var(--custom-gradient-color-1) r g b / 0.2), rgb(from var(--custom-gradient-color-2) r g b / 0.2), rgb(from var(--custom-gradient-color-1) r g b / 0.2));
+    opacity: 1;
+    filter: unset;
+    transition: unset;
+  }
+
+  &:not(.twoColorGradient_e5de78) {
+    background: color-mix(in srgb, currentColor 20%, transparent);
+  }
+
   &:hover {
     text-decoration: none;
+  }
+
+  &:is(.twoColorGradient_e5de78):hover::after {
+    background: linear-gradient(to right, rgb(from var(--custom-gradient-color-1) r g b / 0.4), rgb(from var(--custom-gradient-color-2) r g b / 0.4), rgb(from var(--custom-gradient-color-1) r g b / 0.4));
+  }
+
+  &:not(.twoColorGradient_e5de78):hover {
     background: color-mix(in srgb, currentColor 40%, transparent);
   }
 }
 
-.username_c19a55::after {
+.username_c19a55:not(.twoColorGradient_e5de78)::after {
   position: relative;
   margin: 0 0 0 8px;
   color: inherit;
