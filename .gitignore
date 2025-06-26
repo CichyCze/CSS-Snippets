@@ -1,8 +1,0 @@
-# Snippets to ignore
-
-# GuildList (cannot find a way to fix for now)
-GuildList/
-
-# MessageSection v1 (superseded by v2)
-MessageSection/v1/
-
