@@ -27,16 +27,16 @@
 }
 
 /* Username */
-.cozy_c19a55 .header_c19a55 {
+.c19a557985eb7793-cozy .c19a557985eb7793-header {
   margin-bottom: 4px;
 }
 
-.username_c19a55::before,
-.base_b88801 .text_b88801 strong::before,
-.name__841c8::before,
+.c19a557985eb7793-username::before,
+.b8880176888cc928-base .b8880176888cc928-text strong::before,
+._841c8f861f7b2704-name::before,
 .mention.interactive::before,
-[class^="repliedMessage_"] > .username_c19a55::before,
-.member__5d473 .username_d272d6::before {
+[class^="repliedMessage_"] > .c19a557985eb7793-username::before,
+._5d473ecff348c314-member .username_d272d6::before {
   background: var(--background-modifier-accent);
   content: '';
   position: absolute;
@@ -44,12 +44,12 @@
   z-index: -1;
 }
 
-.username_c19a55,
-.base_b88801 .text_b88801 strong,
-.name__841c8,
+.c19a557985eb7793-username,
+.b8880176888cc928-base .b8880176888cc928-text strong,
+._841c8f861f7b2704-name,
 .mention.interactive,
-[class^="repliedMessage_"] > .username_c19a55,
-.member__5d473 .username_d272d6 {
+[class^="repliedMessage_"] > .c19a557985eb7793-username,
+._5d473ecff348c314-member .username_d272d6 {
   filter: brightness(1.2);
   border: calc(1px * var(--enable-border)) solid;
   /*font-weight: bold;*/
@@ -59,25 +59,25 @@
   display: inline-flex;
 }
 
-.username_c19a55:hover::before,
-.base_b88801 .text_b88801 strong:hover::before,
-.name__841c8:hover::before,
+.c19a557985eb7793-username:hover::before,
+.b8880176888cc928-base .b8880176888cc928-text strong:hover::before,
+._841c8f861f7b2704-name:hover::before,
 .mention.interactive:hover::before,
-[class^="repliedMessage_"] > .username_c19a55:hover::before,
-.member__5d473 .username_d272d6:hover::before {
+[class^="repliedMessage_"] > .c19a557985eb7793-username:hover::before,
+._5d473ecff348c314-member .username_d272d6:hover::before {
   background: var(--background-modifier-hover);
 }
 
-.username_c19a55:hover,
-.base_b88801 .text_b88801 strong:hover,
-.name__841c8:hover,
+.c19a557985eb7793-username:hover,
+.b8880176888cc928-base .b8880176888cc928-text strong:hover,
+._841c8f861f7b2704-name:hover,
 .mention.interactive:hover,
-[class^="repliedMessage_"] > .username_c19a55:hover,
-.member__5d473 .username_d272d6:hover {
+[class^="repliedMessage_"] > .c19a557985eb7793-username:hover,
+._5d473ecff348c314-member .username_d272d6:hover {
   text-decoration: none;
 }
 
-.username_c19a55:not(.twoColorGradient_e5de78):after {
+.c19a557985eb7793-username:not(.e5de7811b2777bfa-twoColorGradient):after {
   position: relative;
   margin: 0 0 0 8px;
   color: inherit;
