@@ -36,7 +36,7 @@
 .b8880176888cc928-base .b8880176888cc928-text strong,
 ._841c8f861f7b2704-name,
 .mention.interactive,
-[class^="repliedMessage_"] > .c19a557985eb7793-username,
+[class^="-repliedMessage"] > .c19a557985eb7793-username,
 ._5d473ecff348c314-member .username_d272d6 {
   filter: brightness(1.2);
   border: calc(1px * var(--enable-border)) solid;

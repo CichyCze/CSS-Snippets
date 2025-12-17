@@ -35,7 +35,7 @@
 .b8880176888cc928-base .b8880176888cc928-text strong::before,
 ._841c8f861f7b2704-name::before,
 .mention.interactive::before,
-[class^="repliedMessage_"] > .c19a557985eb7793-username::before,
+[class^="-repliedMessage"] > .c19a557985eb7793-username::before,
 ._5d473ecff348c314-member .username_d272d6::before {
   background: var(--background-modifier-accent);
   content: '';
@@ -48,7 +48,7 @@
 .b8880176888cc928-base .b8880176888cc928-text strong,
 ._841c8f861f7b2704-name,
 .mention.interactive,
-[class^="repliedMessage_"] > .c19a557985eb7793-username,
+[class^="-repliedMessage"] > .c19a557985eb7793-username,
 ._5d473ecff348c314-member .username_d272d6 {
   filter: brightness(1.2);
   border: calc(1px * var(--enable-border)) solid;
@@ -63,7 +63,7 @@
 .b8880176888cc928-base .b8880176888cc928-text strong:hover::before,
 ._841c8f861f7b2704-name:hover::before,
 .mention.interactive:hover::before,
-[class^="repliedMessage_"] > .c19a557985eb7793-username:hover::before,
+[class^="-repliedMessage"] > .c19a557985eb7793-username:hover::before,
 ._5d473ecff348c314-member .username_d272d6:hover::before {
   background: var(--background-modifier-hover);
 }
@@ -72,7 +72,7 @@
 .b8880176888cc928-base .b8880176888cc928-text strong:hover,
 ._841c8f861f7b2704-name:hover,
 .mention.interactive:hover,
-[class^="repliedMessage_"] > .c19a557985eb7793-username:hover,
+[class^="-repliedMessage"] > .c19a557985eb7793-username:hover,
 ._5d473ecff348c314-member .username_d272d6:hover {
   text-decoration: none;
 }

@@ -34,6 +34,6 @@
   background: hsla(var(--brand-500-hsl) / 50%);
 }
 
-[class*="unread_"] {
+[class*="-unread"] {
   display: none;
 }

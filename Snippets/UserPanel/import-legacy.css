@@ -9,7 +9,7 @@
  */
 
 /* [[ USER PANEL ]] */
-[class^="nameTag_"][class*="canCopy_"] {
+[class^="-nameTag"][class*="-canCopy"] {
   margin-left: 5px;
 }
 
@@ -54,7 +54,7 @@
   color: var(--interactive-hover);
 }
 
-[class^="actionButtons_"] {
+[class^="-actionButtons"] {
   display: flexbox;
   order: -1;
   box-sizing: border-box;
@@ -62,12 +62,12 @@
   padding-top: 0;
 }
 
-[class^="actionButtons_"] [class^="button_"][class*="buttonColor_"] {
+[class^="-actionButtons"] [class^="-button"][class*="-buttonColor"] {
   height: 40px;
   background: transparent;
 }
 
-[class^="actionButtons_"] [class^="button_"][class*="buttonColor_"]:hover {
+[class^="-actionButtons"] [class^="-button"][class*="-buttonColor"]:hover {
   background: var(--brand-700) !important;
 }
 

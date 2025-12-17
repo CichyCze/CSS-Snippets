@@ -34,6 +34,6 @@
   background: color-mix(in srgb, var(--brand-500) 50%, transparent);
 }
 
-[class*="unread_"] {
+[class*="-unread"] {
   display: none;
 }

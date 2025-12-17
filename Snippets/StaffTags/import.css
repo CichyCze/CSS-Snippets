@@ -16,7 +16,7 @@
 }
 
 /* [[ STAFF TAGS ]] */
-[class*="botTag__"] {
+[class*="-botTag"] {
   font-size: 12px;
   text-transform: none;
   top: 0.225rem;
@@ -39,11 +39,11 @@
     background: var(--mod-color);
   }
 
-  & > [class*="botText__"] {
+  & > [class*="-botText"] {
     line-height: 0.875rem !important;
   }
 }
 
-[class^="userTagNoNickname-"] > [class*="botTag"] {
+[class^="-userTagNoNickname-"] > [class*="-botTag"] {
   margin-bottom: 4px;
 }

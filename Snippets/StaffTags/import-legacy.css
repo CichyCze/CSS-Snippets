@@ -16,7 +16,7 @@
 }
 
 /* [[ STAFF TAGS ]] */
-[class*="botTag__"] {
+[class*="-botTag"] {
   font-size: 12px;
   text-transform: none;
   top: 0.225rem;
@@ -24,26 +24,26 @@
   height: 0.875rem !important;
 }
 
-[class*="botTag__"][data-tag="admin"] {
+[class*="-botTag"][data-tag="admin"] {
   background: var(--admin-color);
 }
 
-[class*="botTag__"][data-tag="owner"] {
+[class*="-botTag"][data-tag="owner"] {
   background: var(--owner-color);
 }
 
-[class*="botTag__"][data-tag="staff"] {
+[class*="-botTag"][data-tag="staff"] {
   background: var(--staff-color);
 }
 
-[class*="botTag__"][data-tag="mod"] {
+[class*="-botTag"][data-tag="mod"] {
   background: var(--mod-color);
 }
 
-[class*="botTag__"] > [class*="botText__"] {
+[class*="-botTag"] > [class*="-botText"] {
   line-height: 0.875rem !important;
 }
 
-[class^="userTagNoNickname-"] > [class*="botTag"] {
+[class^="-userTagNoNickname"] > [class*="-botTag"] {
   margin-bottom: 4px;
 }

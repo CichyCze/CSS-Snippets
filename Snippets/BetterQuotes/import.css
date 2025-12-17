@@ -10,13 +10,13 @@
  */
 
 /* [[ QUOTES ]] */
-[class*="markup_"] blockquote {
+[class*="-markup"] blockquote {
   padding: 4px 10px;
   background: color-mix(in srgb, var(--brand-500) 25%, transparent);
   color: var(--brand-300);
   border-radius: 0 4px 4px 0;
 }
 
-[class*="blockquoteDivider_"] {
+[class*="-blockquoteDivider"] {
   background: var(--brand-300);
 }

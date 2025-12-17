@@ -64,12 +64,12 @@
   z-index: 1;
 }
 
-#vc-spotify-player [class*="bar_"] {
+#vc-spotify-player [class*="-bar"] {
   background: var(--interactive-muted);
   height: 4px;
 }
 
-#vc-spotify-player [class*="bar_"]::after {
+#vc-spotify-player [class*="-bar"]::after {
   content: "";
   position: absolute;
   display: block;
@@ -83,7 +83,7 @@
   transform: scale(20);
 }
 
-#vc-spotify-player [class*="barFill"] {
+#vc-spotify-player [class*="-barFill"] {
   background: var(--interactive-normal);
 }
 

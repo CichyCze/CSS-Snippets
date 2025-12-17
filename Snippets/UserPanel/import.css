@@ -9,7 +9,7 @@
  */
 
 /* [[ USER PANEL ]] */
-[class^="nameTag_"][class*="canCopy_"] {
+[class^="-nameTag"][class*="-canCopy"] {
   margin-left: 5px;
 }
 
@@ -54,14 +54,14 @@
   }
 }
 
-[class^="actionButtons_"] {
+[class^="-actionButtons"] {
   display: flexbox;
   order: -1;
   box-sizing: border-box;
   gap: 0;
   padding-top: 0;
 
-  & [class^="button_"][class*="buttonColor_"] {
+  & [class^="-button"][class*="-buttonColor"] {
     height: 40px;
     background: transparent;
 
@@ -96,12 +96,12 @@ body:has(.vc-spotify-pause) ._5e434347c823b592-panels {
   border-bottom: none;
   padding: 14px 12px;
 
-  & [class*="bar_"] {
+  & [class*="-bar"] {
     background: var(--background-modifier-accent);
     height: 4px;
   }
 
-  & [class*="barFill"] {
+  & [class*="-barFill"] {
     background: var(--brand-500);
   }
 

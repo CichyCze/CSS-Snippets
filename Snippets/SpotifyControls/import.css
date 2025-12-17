@@ -61,7 +61,7 @@
     z-index: 1;
   }
 
-  & [class*="bar_"] {
+  & [class*="-bar"] {
     background: var(--interactive-muted);
     height: 4px;
 
@@ -80,7 +80,7 @@
     }
   }
 
-  & [class*="barFill"] {
+  & [class*="-barFill"] {
     background: var(--interactive-normal);
   }
 

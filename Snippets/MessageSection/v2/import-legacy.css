@@ -41,7 +41,7 @@
   /* Slowmode/typing indicators */
 }
 
-.f75fb00fb7356cbe-form > :last-child[class^="typing"] {
+.f75fb00fb7356cbe-form > :last-child[class^="-typing"] {
   top: -32px;
   right: 24px;
   padding: 0px 16px 0px 8px;
