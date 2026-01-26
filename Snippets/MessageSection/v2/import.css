@@ -9,7 +9,7 @@
  */
 
 /* [[ CHAT AREA ]] */
-.f75fb00fb7356cbe-form {
+.form_f75fb0 {
   margin-top: 0;
   padding: 0;
 
@@ -17,10 +17,10 @@
   & > .channelTextAreaContainer_d0696b {
     margin-bottom: 0px;
 
-    & > .f75fb00fb7356cbe-channelTextArea {
+    & > .channelTextArea_f75fb0 {
       margin-bottom: 0px;
 
-      & > ._740174f3d6a2c8fe-scrollableContainer {
+      & > .scrollableContainer__74017 {
         margin: 0 8px 8px 8px;
       }
     }
@@ -32,13 +32,13 @@
       padding-top: 4px;
     }
 
-    & > ._44df51b030bd5ece-content > img {
+    & > .content__44df5 > img {
       margin-bottom: 8px;
     }
   }
 
   /* Slowmode/typing indicators */
-  & > :last-child[class^="-typing"] {
+  & > :last-child[class^="typing_"] {
     top: -32px;
     right: 24px;
     padding: 0px 16px 0px 8px;
@@ -48,7 +48,7 @@
     background: var(--background-tertiary);
   }
 
-  & ._740174f3d6a2c8fe-buttons {
+  & .buttons__74017 {
     overflow: hidden;
     position: relative;
     justify-content: flex-end;
@@ -102,7 +102,7 @@
   }
 }
 
-.aa63abf63dbd9cce-separator {
+.separator_aa63ab {
   grid-column: 4;
   margin-right: 8px;
   padding-bottom: 8px;
@@ -114,11 +114,11 @@
   }
 }
 
-.f75fb00fb7356cbe-channelTextArea ._908e20001ad67812-divider {
+.channelTextArea_f75fb0 .divider__908e2 {
   border-top: none;
 }
 
-.b77158512e0ab116-channelAttachmentArea {
+.channelAttachmentArea_b77158 {
   background: var(--background-tertiary);
   margin: 4px 8px;
   padding: 8px;
@@ -127,23 +127,23 @@
   width: fit-content;
 }
 
-.aa605f19898fe32e-upload {
+.upload_aa605f {
   min-height: 150px;
   max-height: 150px;
   min-width: 150px;
   max-width: 150px;
 }
 
-.aa605f19898fe32e-actionBar {
+.actionBar_aa605f {
   transform: translate(0, -16px);
 
-  & .f7ecaca5c80dbf3a-button {
+  & .button_f7ecac {
     background: var(--background-tertiary);
   }
 }
 
 /* jump to present */
-._0f481cbbd7530492-jumpToPresentBar {
+.jumpToPresentBar__0f481 {
   padding: 0;
   left: 0;
   border-radius: 4px;
@@ -156,11 +156,11 @@
     margin-bottom: 8px;
   }
 
-  & > ._0f481cbbd7530492-barButtonMain {
+  & > .barButtonMain__0f481 {
     flex: 0 0 auto;
   }
 
-  &:hover ._0f481cbbd7530492-barButtonMain {
+  &:hover .barButtonMain__0f481 {
     animation: vertiscroll 0.5s linear forwards;
     display: block;
     height: auto;
@@ -169,7 +169,7 @@
   }
 }
 
-._740174f3d6a2c8fe-stackedBars {
+.stackedBars__74017 {
   min-height: unset !important;
   position: relative;
   margin: 0px 24px 4px 4px;
@@ -178,35 +178,35 @@
   background: var(--background-tertiary);
 }
 
-._841c8f861f7b2704-replyBar {
+.replyBar__841c8 {
   background: var(--background-tertiary);
 }
 
 /* Positions both the *new messages* and *viewing old messages* bars on top of the channel text area. */
-._0f481cbbd7530492-barBase {
+.barBase__0f481 {
   --bar-height: 24px;
   --bar-edges: 24px;
 }
 
-._36d072eab2b2e737-messagesWrapper:has(._0f481cbbd7530492-newMessagesBar):has(
-    ._0f481cbbd7530492-jumpToPresentBar
+.messagesWrapper__36d07:has(.newMessagesBar__0f481):has(
+    .jumpToPresentBar__0f481
   )
-  ._0f481cbbd7530492-barBase {
+  .barBase__0f481 {
   align-items: flex-start;
   height: var(--bar-height);
   overflow: hidden;
   width: calc(50% - var(--bar-edges));
 }
 
-._36d072eab2b2e737-messagesWrapper:has(._0f481cbbd7530492-jumpToPresentBar) ._0f481cbbd7530492-newMessagesBar {
+.messagesWrapper__36d07:has(.jumpToPresentBar__0f481) .newMessagesBar__0f481 {
   left: auto;
 }
 
-.b8880176888cc928-base .b8880176888cc928-typingDots svg {
+.base_b88801 .typingDots_b88801 svg {
   margin-right: 4px;
 }
 
-._0f481cbbd7530492-newMessagesBar {
+.newMessagesBar__0f481 {
   height: 24px;
   margin-bottom: 8px;
   margin-left: calc(var(--bar-edges) * -1 + 8px);
@@ -214,7 +214,7 @@
   inset: auto var(--bar-edges) 0;
   background: var(--background-tertiary);
 
-  &:hover ._0f481cbbd7530492-span {
+  &:hover .span__0f481 {
     animation: vertiscroll 0.5s linear forwards;
     display: block;
     height: auto;
@@ -233,6 +233,6 @@
   }
 }
 
-._740174f3d6a2c8fe-themedBackground {
+.themedBackground__74017 {
   background: var(--background-primary);
 }

@@ -9,17 +9,17 @@
  */
 
 /* [[ TOOLBAR HIDE ]] */
-._9293f6b2fc12398a-toolbar {
+.toolbar__9293f {
   overflow: hidden;
   justify-content: flex-end;
   transition: all 350ms;
 }
 
-._9293f6b2fc12398a-toolbar:where(:not(:hover)) {
+.toolbar__9293f:where(:not(:hover)) {
   max-width: 32px;
 }
 
-._9293f6b2fc12398a-toolbar::before {
+.toolbar__9293f::before {
   opacity: 0%;
   transition: opacity 150ms;
   position: absolute;
@@ -29,28 +29,28 @@
   width: 32px;
 }
 
-._9293f6b2fc12398a-toolbar:where(:not(:hover))::before {
+.toolbar__9293f:where(:not(:hover))::before {
   opacity: 100%;
   transition: opacity 1000ms;
 }
 
-._9293f6b2fc12398a-toolbar:hover {
+.toolbar__9293f:hover {
   transition: all 150ms;
 }
 
-._9293f6b2fc12398a-toolbar > div {
+.toolbar__9293f > div {
   transform: scaleX(0%) !important;
   opacity: 0%;
   display: flex;
   justify-content: center;
 }
 
-._9293f6b2fc12398a-toolbar:hover > div {
+.toolbar__9293f:hover > div {
   transform: scaleX(100%) !important;
   transition: opacity 300ms;
   opacity: 100%;
 }
 
-._9293f6b2fc12398a-toolbar > div svg {
+.toolbar__9293f > div svg {
   transition: all 0.3s ease-in-out;
 }

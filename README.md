@@ -12,7 +12,7 @@ A compilation of CSS snippets for Discord and its custom clients.
 > [!CAUTION]
 > A [slight maintenance](https://github.com/CichyCze/CSS-Snippets/milestone/1) is going underway. That includes mostly some fixes, documentation edits, and bringing back the removed snippets.
 >
-> Also, `UserPanel` is currently a bit broken. Fix is planned (see [#1](../../issues/1)).
+> Also, `UserPanel` is currently a bit broken. Fix is planned (see [#1](../../issues/1)). `Titlebar` doesn't work at all (see [#6](../../issues/6)), and the same goes for `GuildBoost` (see [#7](../../issues/7))...
 
 > [!WARNING]
 > Because of a major revamp of the user profiles in the mid-2024, the original author decided to temporatily remove the `BetterProfiles` and `UserOptions` snippets. Their return is planned (see [#2](../../issues/2), [#3](../../issues/3) and [#4](../../issues/4)).
@@ -34,7 +34,6 @@ A compilation of CSS snippets for Discord and its custom clients.
 | [OnekoDM](Snippets/OnekoDM/) | Replaces the discord logo with Oneko! | <img valign='middle' alt='OnekoDM' src='./docs/_media/OnekoDM.png'/> |
 | [UserPanel](Snippets/UserPanel/) | Replaces the user panel with a customizable and more appealing version. | <img valign='middle' alt='UserPanel' src='./docs/_media/UserPanel.png'/> |
 | [ToolbarHide](Snippets/ToolbarHide/) | Hides the top toolbar for a cleaner layout. | <img valign='middle' alt='ToolbarHide' src='./docs/_media/ToolbarHide.png'/> |
-| [StaffTags](Snippets/StaffTags/) | Applies styling to different staff tags for easier identification. | <img valign='middle' alt='StaffTags' src='./docs/_media/StaffTags.png'/> |
 | [Titlebar](Snippets/Titlebar/) | Changes the default Discord titlebar to a more visually appealing one. Text and background color is customizable. | <img valign='middle' alt='Titlebar_01' src='./docs/_media/Titlebar_01.png'/> <img valign='middle' alt='Titlebar_02' src='./docs/_media/Titlebar_02.png'/> |
 | [SpotifyControls](Snippets/SpotifyControls/) | Redesigns the Spotify Controls. | <img valign='middle' alt='SpotifyControls' src='./docs/_media/SpotifyControls.png'/> |
 
@@ -44,6 +43,11 @@ A compilation of CSS snippets for Discord and its custom clients.
 | BetterProfiles | Improves general layout of user profiles, improving readability and visual appeal. Credits to [Saltssaumure](https://github.com/Saltssaumure) for the role pills. | <img valign='middle' alt='BetterProfiles' src='./docs/_media/BetterProfiles.png' height='400px'/> |
 | GuildList | Makes the guild/server list more more efficient and more appealing. | <img valign='middle' alt='GuildList' src='./docs/_media/GuildList.png'/> |
 | UserOptions | Replaces the profile popout with more streamlined options | <img valign='middle' alt='UserOptions' src='./docs/_media/UserOptions.png'/> |
+
+## List of unavailable snippets
+| Snippet | Description | Image |
+| -------- | ------- | ------- |
+| [StaffTags](Snippets/StaffTags/) | Applies styling to different staff tags for easier identification. Unavailable due to removal of the MoreUserTags plugin ([<ins>`ceba977`</ins>](https://github.com/Vendicated/Vencord/commit/ceba9776c4be12288dbf618b5bc36e0e41d3f70f)). | <img valign='middle' alt='StaffTags' src='./docs/_media/StaffTags.png'/> |
 
 ## Apply
 There are several methods to apply these snippets. The methods below are for Vencord, however other clients have similar methods.

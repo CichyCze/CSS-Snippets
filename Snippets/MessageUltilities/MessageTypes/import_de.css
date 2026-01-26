@@ -10,53 +10,53 @@
 
 /* Message types (GERMAN) */
 /* Removes the edited sign */
-.c19a557985eb7793-edited {
+.edited_c19a55 {
   font-size: 0;
 }
 
-.c19a557985eb7793-contents .c19a557985eb7793-username::after {
+.contents_c19a55 .username_c19a55::after {
   content: " hat geschrieben:";
 }
 
-._5126c0cd07f243a0-message:has(.c19a557985eb7793-edited) .c19a557985eb7793-contents .c19a557985eb7793-username::after {
+.message__5126c:has(.edited_c19a55) .contents_c19a55 .username_c19a55::after {
   content: " hat geschrieben und bearbeitet:";
 }
 
-._5126c0cd07f243a0-message:has(.mediaAttachmentsContainer__242e2, ._623de82e76ad7f82-embed)
-  .c19a557985eb7793-contents
-  .c19a557985eb7793-username::after {
+.message__5126c:has(.mediaAttachmentsContainer__242e2, .embed__623de)
+  .contents_c19a55
+  .username_c19a55::after {
   content: " hat Anhänge gesendet:";
 }
 
-._5126c0cd07f243a0-message:has(._31fc2df9348cd84a-stickerAsset)
-  .c19a557985eb7793-contents
-  .c19a557985eb7793-username::after {
+.message__5126c:has(.stickerAsset__31fc2)
+  .contents_c19a55
+  .username_c19a55::after {
   content: " hat einen Sticker gesendet:";
 }
 
-._5126c0cd07f243a0-message:has(.emoji.jumboable) .c19a557985eb7793-contents .c19a557985eb7793-username::after {
+.message__5126c:has(.emoji.jumboable) .contents_c19a55 .username_c19a55::after {
   content: " hat Emojis gesendet:";
 }
 
-.c19a557985eb7793-hasReply .c19a557985eb7793-contents .c19a557985eb7793-username::after {
+.hasReply_c19a55 .contents_c19a55 .username_c19a55::after {
   content: " hat geantwortet:";
 }
 
-._5126c0cd07f243a0-message.c19a557985eb7793-hasReply:has(.c19a557985eb7793-edited)
-  .c19a557985eb7793-contents
-  .c19a557985eb7793-username::after {
+.message__5126c.hasReply_c19a55:has(.edited_c19a55)
+  .contents_c19a55
+  .username_c19a55::after {
   content: " hat geantwortet und bearbeitet:";
 }
 
-._5126c0cd07f243a0-mentioned .c19a557985eb7793-contents .c19a557985eb7793-username::after {
+.mentioned__5126c .contents_c19a55 .username_c19a55::after {
   content: " hat dir erwähnt:";
 }
 
-._5126c0cd07f243a0-mentioned:has(.c19a557985eb7793-edited) .c19a557985eb7793-contents .c19a557985eb7793-username::after {
+.mentioned__5126c:has(.edited_c19a55) .contents_c19a55 .username_c19a55::after {
   content: " hat dir erwähnt und bearbeitet:";
 }
 
 /* Add color to extra elements */
-.c19a557985eb7793-username::after {
+.username_c19a55::after {
   color: var(--text-muted);
 }

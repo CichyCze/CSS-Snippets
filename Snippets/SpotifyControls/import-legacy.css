@@ -64,12 +64,12 @@
   z-index: 1;
 }
 
-#vc-spotify-player [class*="-bar"] {
-  background: var(--interactive-muted);
+#vc-spotify-player [class*="bar_"] {
+  background: var(--background-modifier-accent);
   height: 4px;
 }
 
-#vc-spotify-player [class*="-bar"]::after {
+#vc-spotify-player [class*="bar_"]::after {
   content: "";
   position: absolute;
   display: block;
@@ -83,24 +83,29 @@
   transform: scale(20);
 }
 
-#vc-spotify-player [class*="-barFill"] {
-  background: var(--interactive-normal);
+#vc-spotify-player [class*="barFill_"] {
+  background: var(--brand-500);
 }
 
 #vc-spotify-player :is(.vc-spotify-shuffle-off, .vc-spotify-repeat-off) {
-  color: var(--interactive-normal) !important;
+  color: var(--brand-500) !important;
 }
 
 #vc-spotify-player .vc-spotify-button.vc-spotify-button {
-  color: var(--interactive-normal);
-  background: var(--background-modifier-accent);
+  color: var(--brand-500);
+  background: hsl(from var(--brand-500) h s l / 25%);
   margin: 0 4px;
   scale: 0.85;
 }
 
-#vc-spotify-player .vc-spotify-button.vc-spotify-button:hover {
-  background: var(--background-modifier-hover) !important;
-  color: var(--interactive-hover) !important;
+#vc-spotify-player .vc-spotify-button.vc-spotify-button:hover
+  :not(
+    .vc-spotify-shuffle-on,
+    .vc-spotify-repeat-track,
+    .vc-spotify-repeat-context
+  ) {
+  color: var(--brand-400) !important;
+  background: hsl(from var(--brand-500) h s l / 50%) !important;
 }
 
 #vc-spotify-player
@@ -109,8 +114,18 @@
     .vc-spotify-repeat-track,
     .vc-spotify-repeat-context
   ) {
-  background: var(--background-modifier-selected) !important;
-  color: var(--interactive-active) !important;
+  color: var(--brand-300) !important;
+  background: hsl(from var(--brand-500) h s l / 75%) !important;
+}
+
+#vc-spotify-player:hover
+  :is(
+    .vc-spotify-shuffle-on,
+    .vc-spotify-repeat-track,
+    .vc-spotify-repeat-context
+  ) {
+  color: var(--brand-200) !important;
+  background: hsl(from var(--brand-500) h s l / 100%) !important;
 }
 
 #vc-spotify-player .vc-spotify-button-row {

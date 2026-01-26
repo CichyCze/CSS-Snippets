@@ -31,12 +31,12 @@
 }
 
 /* [[ CHAT BUBBLES ]] */
-.f75fb00fb7356cbe-channelTextArea {
+.channelTextArea_f75fb0 {
   background: transparent;
 }
 
 /* Fix overflow on replied pings */
-.c19a557985eb7793-repliedTextPreview {
+.repliedTextPreview_c19a55 {
   max-height: fit-content;
 }
 
@@ -44,12 +44,12 @@
   margin-bottom: 0 !important;
 }
 
-._0f481cbbd7530492-altText {
+.altText__0f481 {
   margin: 8px 0 -4px;
 }
 
 /* revert back to class selectors + add borders */
-._752971923a1e6683-markup.c19a557985eb7793-messageContent a {
+.markup__75297.messageContent_c19a55 a {
   background: var(--background-modifier-accent);
   color: var(--text-link);
   font-weight: 600;
@@ -58,41 +58,41 @@
 }
 
 /* Message embeds (Vencord plugin) */
-._623de82e76ad7f82-grid {
+.grid__623de {
   padding: 4px 8px 8px 6px;
 
-  & ._623de82e76ad7f82-embedAuthor {
+  & .embedAuthor__623de {
     & span {
       font-weight: bold;
     }
   }
 
-  & ._80bf8435713f6adb-message {
+  & .message__80bf8 {
     padding: 8px 0;
 
-    & .c19a557985eb7793-avatar {
+    & .avatar_c19a55 {
       margin: 0;
     }
   }
 }
 
-._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-cozyMessage
-  > .c19a557985eb7793-contents:hover
-  ._752971923a1e6683-markup.c19a557985eb7793-messageContent
+.groupStart__5126c.cozyMessage__5126c
+  > .contents_c19a55:hover
+  .markup__75297.messageContent_c19a55
   a,
-._5126c0cd07f243a0-cozyMessage:not(._5126c0cd07f243a0-groupStart)
-  > .c19a557985eb7793-contents:hover
-  > ._752971923a1e6683-markup:not(:empty, .a98f3b020416ad54-searchResultsWrap *)
+.cozyMessage__5126c:not(.groupStart__5126c)
+  > .contents_c19a55:hover
+  > .markup__75297:not(:empty, .searchResultsWrap_a98f3b *)
   a {
   background: var(--background-modifier-hover);
   text-decoration: none;
 }
 
-._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-cozyMessage > .c19a557985eb7793-contents,
-._5126c0cd07f243a0-cozyMessage:not(._5126c0cd07f243a0-groupStart)
-  > .c19a557985eb7793-contents
-  > ._752971923a1e6683-markup:not(:empty, .a98f3b020416ad54-searchResultsWrap *),
-.b7e1cb0370c2dd0e-container > :not(._23977d5b7cef7361-reactions, .a98f3b020416ad54-searchResultsWrap *) {
+.groupStart__5126c.cozyMessage__5126c > .contents_c19a55,
+.cozyMessage__5126c:not(.groupStart__5126c)
+  > .contents_c19a55
+  > .markup__75297:not(:empty, .searchResultsWrap_a98f3b *),
+.container_b7e1cb > :not(.reactions__23977, .searchResultsWrap_a98f3b *) {
   margin: 0;
   padding: 8px;
   border-radius: 8px;
@@ -108,36 +108,36 @@
 }
 
 /* Overwrite previous margin settings */
-._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-cozyMessage > .c19a557985eb7793-contents,
-._5126c0cd07f243a0-cozyMessage:not(._5126c0cd07f243a0-groupStart)
-  > .c19a557985eb7793-contents
-  > ._752971923a1e6683-markup:not(:empty, .a98f3b020416ad54-searchResultsWrap *) {
+.groupStart__5126c.cozyMessage__5126c > .contents_c19a55,
+.cozyMessage__5126c:not(.groupStart__5126c)
+  > .contents_c19a55
+  > .markup__75297:not(:empty, .searchResultsWrap_a98f3b *) {
   margin: calc(2px + 1px * var(--enable-chat-bubble-border)) 0;
 }
 
-.b7e1cb0370c2dd0e-container > ._623de82e76ad7f82-embedSpotify {
+.container_b7e1cb > .embedSpotify__623de {
   height: fit-content;
   padding: 0;
   box-sizing: content-box;
 }
 
 /* Fix overlapping of reactions */
-._23977d5b7cef7361-reactions {
+.reactions__23977 {
   margin-top: calc(4px + 2px * var(--enable-chat-bubble-border));
   margin-left: calc(0px - 2px * var(--enable-chat-bubble-border));
 }
 
-._0f481cbbd7530492-altText {
+.altText__0f481 {
   margin: 8px 0 -4px;
 }
 
-._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-replying > .c19a557985eb7793-contents,
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-replying:not(._5126c0cd07f243a0-groupStart)
-  > .c19a557985eb7793-contents
-  > ._752971923a1e6683-markup:not(:empty, .a98f3b020416ad54-searchResultsWrap *),
-._5126c0cd07f243a0-replying
-  .b7e1cb0370c2dd0e-container
-  > :not(._23977d5b7cef7361-reactions, .a98f3b020416ad54-searchResultsWrap *) {
+.groupStart__5126c.cozyMessage__5126c.replying__5126c > .contents_c19a55,
+.cozyMessage__5126c.replying__5126c:not(.groupStart__5126c)
+  > .contents_c19a55
+  > .markup__75297:not(:empty, .searchResultsWrap_a98f3b *),
+.replying__5126c
+  .container_b7e1cb
+  > :not(.reactions__23977, .searchResultsWrap_a98f3b *) {
   background: color-mix(in srgb, var(--chat-bubble-replying) 25%, transparent);
   border-radius: 8px;
   max-width: max-content;
@@ -153,13 +153,13 @@
   }
 }
 
-._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-mentioned > .c19a557985eb7793-contents,
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-mentioned:not(._5126c0cd07f243a0-groupStart)
-  > .c19a557985eb7793-contents
-  > ._752971923a1e6683-markup:not(:empty, .a98f3b020416ad54-searchResultsWrap *),
-._5126c0cd07f243a0-mentioned
-  .b7e1cb0370c2dd0e-container
-  > :not(._23977d5b7cef7361-reactions, .a98f3b020416ad54-searchResultsWrap *) {
+.groupStart__5126c.cozyMessage__5126c.mentioned__5126c > .contents_c19a55,
+.cozyMessage__5126c.mentioned__5126c:not(.groupStart__5126c)
+  > .contents_c19a55
+  > .markup__75297:not(:empty, .searchResultsWrap_a98f3b *),
+.mentioned__5126c
+  .container_b7e1cb
+  > :not(.reactions__23977, .searchResultsWrap_a98f3b *) {
   background: color-mix(in srgb, var(--chat-bubble-mentioned) 25%, transparent);
   border-radius: 8px;
   border: calc(1px * var(--enable-chat-bubble-border)) solid
@@ -174,13 +174,13 @@
   }
 }
 
-._5126c0cd07f243a0-groupStart._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-automodMessage > .c19a557985eb7793-contents,
-._5126c0cd07f243a0-cozyMessage._5126c0cd07f243a0-automodMessage:not(._5126c0cd07f243a0-groupStart)
-  > .c19a557985eb7793-contents
-  > ._752971923a1e6683-markup:not(:empty, .a98f3b020416ad54-searchResultsWrap *),
-._5126c0cd07f243a0-automodMessage
-  .b7e1cb0370c2dd0e-container
-  > :not(._23977d5b7cef7361-reactions, .a98f3b020416ad54-searchResultsWrap *) {
+.groupStart__5126c.cozyMessage__5126c.automodMessage__5126c > .contents_c19a55,
+.cozyMessage__5126c.automodMessage__5126c:not(.groupStart__5126c)
+  > .contents_c19a55
+  > .markup__75297:not(:empty, .searchResultsWrap_a98f3b *),
+.automodMessage__5126c
+  .container_b7e1cb
+  > :not(.reactions__23977, .searchResultsWrap_a98f3b *) {
   background: color-mix(in srgb, var(--chat-bubble-automod) 25%, transparent);
   border-radius: 8px;
   border: calc(1px * var(--enable-chat-bubble-border)) solid

@@ -8,40 +8,40 @@
  * @discord seele1306
  */
 /* [[ CHAT AREA ]] */
-.f75fb00fb7356cbe-form {
+.form_f75fb0 {
   margin-top: 0;
   padding: 0;
   /* Align chat box to bottom */
 }
 
-.f75fb00fb7356cbe-form > .channelTextAreaContainer_d0696b {
+.form_f75fb0 > .channelTextAreaContainer_d0696b {
   margin-bottom: 0px;
 }
 
-.f75fb00fb7356cbe-form > .channelTextAreaContainer_d0696b > .f75fb00fb7356cbe-channelTextArea {
+.form_f75fb0 > .channelTextAreaContainer_d0696b > .channelTextArea_f75fb0 {
   margin-bottom: 0px;
 }
 
-.f75fb00fb7356cbe-form
+.form_f75fb0
   > .channelTextAreaContainer_d0696b
-  > .f75fb00fb7356cbe-channelTextArea
-  > ._740174f3d6a2c8fe-scrollableContainer {
+  > .channelTextArea_f75fb0
+  > .scrollableContainer__74017 {
   margin: 0 8px 8px 8px;
   /* center chatbox contents, no border radius */
 }
 
-.f75fb00fb7356cbe-form > .channelTextAreaContainer_d0696b > * {
+.form_f75fb0 > .channelTextAreaContainer_d0696b > * {
   min-height: 49px;
   border-radius: 0;
   padding-top: 4px;
 }
 
-.f75fb00fb7356cbe-form > .channelTextAreaContainer_d0696b > ._44df51b030bd5ece-content > img {
+.form_f75fb0 > .channelTextAreaContainer_d0696b > .content__44df5 > img {
   margin-bottom: 8px;
   /* Slowmode/typing indicators */
 }
 
-.f75fb00fb7356cbe-form > :last-child[class^="-typing"] {
+.form_f75fb0 > :last-child[class^="typing_"] {
   top: -32px;
   right: 24px;
   padding: 0px 16px 0px 8px;
@@ -51,7 +51,7 @@
   background: var(--background-tertiary);
 }
 
-.f75fb00fb7356cbe-form ._740174f3d6a2c8fe-buttons {
+.form_f75fb0 .buttons__74017 {
   overflow: hidden;
   position: relative;
   justify-content: flex-end;
@@ -59,7 +59,7 @@
   margin-right: 4px;
 }
 
-.f75fb00fb7356cbe-form ._740174f3d6a2c8fe-buttons::before {
+.form_f75fb0 .buttons__74017::before {
   opacity: 0%;
   transition: opacity 150ms;
   position: absolute;
@@ -69,58 +69,58 @@
   width: 32px;
 }
 
-.f75fb00fb7356cbe-form ._740174f3d6a2c8fe-buttons:hover {
+.form_f75fb0 .buttons__74017:hover {
   transition: all 150ms;
   width: 50%;
 }
 
-.f75fb00fb7356cbe-form ._740174f3d6a2c8fe-buttons:hover > :is(button, div) {
+.form_f75fb0 .buttons__74017:hover > :is(button, div) {
   transform: scaleX(100%) !important;
   transition: opacity 300ms;
   opacity: 100%;
 }
 
-.f75fb00fb7356cbe-form ._740174f3d6a2c8fe-buttons > :is(button, div) {
+.form_f75fb0 .buttons__74017 > :is(button, div) {
   display: flex;
   justify-content: center;
   transform: scaleX(0%) !important;
   opacity: 0%;
 }
 
-.f75fb00fb7356cbe-form ._740174f3d6a2c8fe-buttons > :is(button, div) svg {
+.form_f75fb0 .buttons__74017 > :is(button, div) svg {
   border-radius: 4px;
 }
 
-.f75fb00fb7356cbe-form ._740174f3d6a2c8fe-buttons > :is(button, div):hover svg {
+.form_f75fb0 .buttons__74017 > :is(button, div):hover svg {
   color: var(--interactive-hover);
 }
 
-.f75fb00fb7356cbe-form ._740174f3d6a2c8fe-buttons:where(:not(:hover)) {
+.form_f75fb0 .buttons__74017:where(:not(:hover)) {
   max-width: 32px;
 }
 
-.f75fb00fb7356cbe-form ._740174f3d6a2c8fe-buttons:where(:not(:hover))::before {
+.form_f75fb0 .buttons__74017:where(:not(:hover))::before {
   opacity: 100%;
   transition: opacity 1000ms;
 }
 
-.aa63abf63dbd9cce-separator {
+.separator_aa63ab {
   grid-column: 4;
   margin-right: 8px;
   padding-bottom: 8px;
   padding-top: 8px;
 }
 
-.aa63abf63dbd9cce-separator .innerButton_aa63ab {
+.separator_aa63ab .innerButton_aa63ab {
   padding: 0;
   margin: 0;
 }
 
-.f75fb00fb7356cbe-channelTextArea ._908e20001ad67812-divider {
+.channelTextArea_f75fb0 .divider__908e2 {
   border-top: none;
 }
 
-.b77158512e0ab116-channelAttachmentArea {
+.channelAttachmentArea_b77158 {
   background: var(--background-tertiary);
   margin: 4px 8px;
   padding: 8px;
@@ -129,23 +129,23 @@
   width: fit-content;
 }
 
-.aa605f19898fe32e-upload {
+.upload_aa605f {
   min-height: 150px;
   max-height: 150px;
   min-width: 150px;
   max-width: 150px;
 }
 
-.aa605f19898fe32e-actionBar {
+.actionBar_aa605f {
   transform: translate(0, -16px);
 }
 
-.aa605f19898fe32e-actionBar .f7ecaca5c80dbf3a-button {
+.actionBar_aa605f .button_f7ecac {
   background: var(--background-tertiary);
 }
 
 /* jump to present */
-._0f481cbbd7530492-jumpToPresentBar {
+.jumpToPresentBar__0f481 {
   padding: 0;
   left: 0;
   border-radius: 4px;
@@ -155,15 +155,15 @@
   right: unset;
 }
 
-._0f481cbbd7530492-jumpToPresentBar:active {
+.jumpToPresentBar__0f481:active {
   margin-bottom: 8px;
 }
 
-._0f481cbbd7530492-jumpToPresentBar > ._0f481cbbd7530492-barButtonMain {
+.jumpToPresentBar__0f481 > .barButtonMain__0f481 {
   flex: 0 0 auto;
 }
 
-._0f481cbbd7530492-jumpToPresentBar:hover ._0f481cbbd7530492-barButtonMain {
+.jumpToPresentBar__0f481:hover .barButtonMain__0f481 {
   animation: vertiscroll 0.5s linear forwards;
   display: block;
   height: auto;
@@ -171,7 +171,7 @@
   white-space: normal;
 }
 
-._740174f3d6a2c8fe-stackedBars {
+.stackedBars__74017 {
   min-height: unset !important;
   position: relative;
   margin: 0px 24px 4px 4px;
@@ -180,35 +180,35 @@
   background: var(--background-tertiary);
 }
 
-._841c8f861f7b2704-replyBar {
+.replyBar__841c8 {
   background: var(--background-tertiary);
 }
 
 /* Positions both the *new messages* and *viewing old messages* bars on top of the channel text area. */
-._0f481cbbd7530492-barBase {
+.barBase__0f481 {
   --bar-height: 24px;
   --bar-edges: 24px;
 }
 
-._36d072eab2b2e737-messagesWrapper:has(._0f481cbbd7530492-newMessagesBar):has(
-    ._0f481cbbd7530492-jumpToPresentBar
+.messagesWrapper__36d07:has(.newMessagesBar__0f481):has(
+    .jumpToPresentBar__0f481
   )
-  ._0f481cbbd7530492-barBase {
+  .barBase__0f481 {
   align-items: flex-start;
   height: var(--bar-height);
   overflow: hidden;
   width: calc(50% - var(--bar-edges));
 }
 
-._36d072eab2b2e737-messagesWrapper:has(._0f481cbbd7530492-jumpToPresentBar) ._0f481cbbd7530492-newMessagesBar {
+.messagesWrapper__36d07:has(.jumpToPresentBar__0f481) .newMessagesBar__0f481 {
   left: auto;
 }
 
-.b8880176888cc928-base .b8880176888cc928-typingDots svg {
+.base_b88801 .typingDots_b88801 svg {
   margin-right: 4px;
 }
 
-._0f481cbbd7530492-newMessagesBar {
+.newMessagesBar__0f481 {
   height: 24px;
   margin-bottom: 8px;
   margin-left: calc(var(--bar-edges) * -1 + 8px);
@@ -217,7 +217,7 @@
   background: var(--background-tertiary);
 }
 
-._0f481cbbd7530492-newMessagesBar:hover ._0f481cbbd7530492-span {
+.newMessagesBar__0f481:hover .span__0f481 {
   animation: vertiscroll 0.5s linear forwards;
   display: block;
   height: auto;
@@ -234,6 +234,6 @@
   }
 }
 
-._740174f3d6a2c8fe-themedBackground {
+.themedBackground__74017 {
   background: var(--background-primary);
 }
