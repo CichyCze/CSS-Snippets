@@ -4,7 +4,7 @@
  * @authorLink https://github.com/SEELE1306
  * @description Adds a chat bubble around messages. Different colours are available for normal, replying, mentioned and automod messages.
  * @license MIT
- * @version 1.0.6
+ * @version 1.0.7
  * @authorId 518795791318384647
  * @discord seele1306
  */
@@ -98,6 +98,13 @@
   background: hsl(var(--chat-bubble-default) / 25%);
   max-width: max-content;
   box-sizing: border-box;
+}
+
+.groupStart__5126c.cozyMessage__5126c > .contents_c19a55:not(.embed_623de),
+.cozyMessage__5126c:not(.groupStart__5126c)
+  > .contents_c19a55
+  > .markup__75297:not(:empty, .searchResultsWrap_a98f3b *, .embed_623de),
+.container_b7e1cb > :not(.reactions__23977, .searchResultsWrap_a98f3b *, .embed_623de) {
   border: calc(1px * var(--enable-chat-bubble-border)) solid
     var(--chat-bubble-default);
 }
