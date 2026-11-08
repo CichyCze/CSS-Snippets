@@ -9,7 +9,7 @@
  */
 
 /* [[ CHAT AREA ]] */
-.form_f75fb0 {
+.form_z_gUBg {
   margin-top: 0;
   padding: 0;
 
@@ -17,10 +17,10 @@
   & > .channelTextAreaContainer_d0696b {
     margin-bottom: 0px;
 
-    & > .channelTextArea_f75fb0 {
+    & > .channelTextArea_z_gUBg {
       margin-bottom: 0px;
 
-      & > .scrollableContainer__74017 {
+      & > .scrollableContainer_2x8-Qn {
         margin: 0 8px 8px 8px;
       }
     }
@@ -32,7 +32,7 @@
       padding-top: 4px;
     }
 
-    & > .content__44df5 > img {
+    & > .content_ST_Y69 > img {
       margin-bottom: 8px;
     }
   }
@@ -48,7 +48,7 @@
     background: var(--background-tertiary);
   }
 
-  & .buttons__74017 {
+  & .buttons_2x8-Qn {
     overflow: hidden;
     position: relative;
     justify-content: flex-end;
@@ -102,7 +102,7 @@
   }
 }
 
-.separator_aa63ab {
+.separator_plpOf8 {
   grid-column: 4;
   margin-right: 8px;
   padding-bottom: 8px;
@@ -114,11 +114,11 @@
   }
 }
 
-.channelTextArea_f75fb0 .divider__908e2 {
+.channelTextArea_z_gUBg .divider_4TfzT5 {
   border-top: none;
 }
 
-.channelAttachmentArea_b77158 {
+.channelAttachmentArea_iH8bsl {
   background: var(--background-tertiary);
   margin: 4px 8px;
   padding: 8px;
@@ -127,23 +127,23 @@
   width: fit-content;
 }
 
-.upload_aa605f {
+.upload_JyxBSo {
   min-height: 150px;
   max-height: 150px;
   min-width: 150px;
   max-width: 150px;
 }
 
-.actionBar_aa605f {
+.actionBar_JyxBSo {
   transform: translate(0, -16px);
 
-  & .button_f7ecac {
+  & .button_Z0MHyc {
     background: var(--background-tertiary);
   }
 }
 
 /* jump to present */
-.jumpToPresentBar__0f481 {
+.jumpToPresentBar_j9Vvzj {
   padding: 0;
   left: 0;
   border-radius: 4px;
@@ -156,11 +156,11 @@
     margin-bottom: 8px;
   }
 
-  & > .barButtonMain__0f481 {
+  & > .barButtonMain_j9Vvzj {
     flex: 0 0 auto;
   }
 
-  &:hover .barButtonMain__0f481 {
+  &:hover .barButtonMain_j9Vvzj {
     animation: vertiscroll 0.5s linear forwards;
     display: block;
     height: auto;
@@ -169,7 +169,7 @@
   }
 }
 
-.stackedBars__74017 {
+.stackedBars_2x8-Qn {
   min-height: unset !important;
   position: relative;
   margin: 0px 24px 4px 4px;
@@ -178,35 +178,35 @@
   background: var(--background-tertiary);
 }
 
-.replyBar__841c8 {
+.replyBar_rE8-46 {
   background: var(--background-tertiary);
 }
 
 /* Positions both the *new messages* and *viewing old messages* bars on top of the channel text area. */
-.barBase__0f481 {
+.barBase_j9Vvzj {
   --bar-height: 24px;
   --bar-edges: 24px;
 }
 
-.messagesWrapper__36d07:has(.newMessagesBar__0f481):has(
-    .jumpToPresentBar__0f481
+.messagesWrapper_8AE1Qq:has(.newMessagesBar_j9Vvzj):has(
+    .jumpToPresentBar_j9Vvzj
   )
-  .barBase__0f481 {
+  .barBase_j9Vvzj {
   align-items: flex-start;
   height: var(--bar-height);
   overflow: hidden;
   width: calc(50% - var(--bar-edges));
 }
 
-.messagesWrapper__36d07:has(.jumpToPresentBar__0f481) .newMessagesBar__0f481 {
+.messagesWrapper_8AE1Qq:has(.jumpToPresentBar_j9Vvzj) .newMessagesBar_j9Vvzj {
   left: auto;
 }
 
-.base_b88801 .typingDots_b88801 svg {
+.base_U9Tvvz .typingDots_U9Tvvz svg {
   margin-right: 4px;
 }
 
-.newMessagesBar__0f481 {
+.newMessagesBar_j9Vvzj {
   height: 24px;
   margin-bottom: 8px;
   margin-left: calc(var(--bar-edges) * -1 + 8px);
@@ -214,7 +214,7 @@
   inset: auto var(--bar-edges) 0;
   background: var(--background-tertiary);
 
-  &:hover .span__0f481 {
+  &:hover .span_j9Vvzj {
     animation: vertiscroll 0.5s linear forwards;
     display: block;
     height: auto;
@@ -233,6 +233,6 @@
   }
 }
 
-.themedBackground__74017 {
+.themedBackground_2x8-Qn {
   background: var(--background-primary);
 }

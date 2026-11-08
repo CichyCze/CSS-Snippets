@@ -10,53 +10,53 @@
 
 /* Message types (CZECH) */
 /* Removes the edited sign */
-.edited_c19a55 {
+.edited_2i8Bfm {
   font-size: 0;
 }
 
-.contents_c19a55 .username_c19a55::after {
+.contents_2i8Bfm .username_2i8Bfm::after {
   content: " píše:";
 }
 
-.message__5126c:has(.edited_c19a55) .contents_c19a55 .username_c19a55::after {
+.message_SY_P2T:has(.edited_2i8Bfm) .contents_2i8Bfm .username_2i8Bfm::after {
   content: " píše a upravuje:";
 }
 
-.message__5126c:has(.mediaAttachmentsContainer__242e2, .embed__623de)
-  .contents_c19a55
-  .username_c19a55::after {
+.message_SY_P2T:has(.mediaAttachmentsContainer__242e2, .embed_XyW1ZT)
+  .contents_2i8Bfm
+  .username_2i8Bfm::after {
   content: " posílá přílohu/y:";
 }
 
-.message__5126c:has(.stickerAsset__31fc2)
-  .contents_c19a55
-  .username_c19a55::after {
+.message_SY_P2T:has(.stickerAsset_1399Om)
+  .contents_2i8Bfm
+  .username_2i8Bfm::after {
   content: " posílá samolepku:";
 }
 
-.message__5126c:has(.emoji.jumboable) .contents_c19a55 .username_c19a55::after {
+.message_SY_P2T:has(.emoji.jumboable) .contents_2i8Bfm .username_2i8Bfm::after {
   content: " posílá emotikon(y):";
 }
 
-.hasReply_c19a55 .contents_c19a55 .username_c19a55::after {
+.hasReply_2i8Bfm .contents_2i8Bfm .username_2i8Bfm::after {
   content: " odpovídá:";
 }
 
-.message__5126c.hasReply_c19a55:has(.edited_c19a55)
-  .contents_c19a55
-  .username_c19a55::after {
+.message_SY_P2T.hasReply_2i8Bfm:has(.edited_2i8Bfm)
+  .contents_2i8Bfm
+  .username_2i8Bfm::after {
   content: " odpovídá a upravuje:";
 }
 
-.mentioned__5126c .contents_c19a55 .username_c19a55::after {
+.mentioned_SY_P2T .contents_2i8Bfm .username_2i8Bfm::after {
   content: " zmiňuje:";
 }
 
-.mentioned__5126c:has(.edited_c19a55) .contents_c19a55 .username_c19a55::after {
+.mentioned_SY_P2T:has(.edited_2i8Bfm) .contents_2i8Bfm .username_2i8Bfm::after {
   content: " zmiňuje a upravuje:";
 }
 
 /* Add color to extra elements */
-.username_c19a55::after {
+.username_2i8Bfm::after {
   color: var(--text-muted);
 }

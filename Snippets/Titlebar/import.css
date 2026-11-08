@@ -15,7 +15,7 @@
   --titlebar-background: #0b7e74;
 }
 
-.wordmarkWindows__421ed {
+.wordmarkWindows_gnMEnp {
   display: flex;
   align-items: center;
   order: 1;
@@ -55,7 +55,7 @@
   }
 }
 
-.typeWindows__421ed {
+.typeWindows_gnMEnp {
   margin-top: 0;
   height: fit-content;
   background: var(--background-secondary);
@@ -65,7 +65,7 @@
   }
 }
 
-.winButton__421ed {
+.winButton_gnMEnp {
   top: 0 !important;
   height: 28px;
   width: 28px;

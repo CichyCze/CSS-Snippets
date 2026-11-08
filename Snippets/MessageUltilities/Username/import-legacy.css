@@ -27,16 +27,16 @@
 }
 
 /* Username */
-.cozy_c19a55 .header_c19a55 {
+.cozy_2i8Bfm .header_2i8Bfm {
   margin-bottom: 4px;
 }
 
-.username_c19a55::before,
-.base_b88801 .text_b88801 strong::before,
-.name__841c8::before,
+.username_2i8Bfm::before,
+.base_U9Tvvz .text_U9Tvvz strong::before,
+.name_rE8-46::before,
 .mention.interactive::before,
-[class^="repliedMessage_"] > .username_c19a55::before,
-.member__5d473 .username_d272d6::before {
+[class^="repliedMessage_"] > .username_2i8Bfm::before,
+.member_Iy0c7A .username_d272d6::before {
   background: var(--background-modifier-accent);
   content: '';
   position: absolute;
@@ -44,12 +44,12 @@
   z-index: -1;
 }
 
-.username_c19a55,
-.base_b88801 .text_b88801 strong,
-.name__841c8,
+.username_2i8Bfm,
+.base_U9Tvvz .text_U9Tvvz strong,
+.name_rE8-46,
 .mention.interactive,
-[class^="repliedMessage_"] > .username_c19a55,
-.member__5d473 .username_d272d6 {
+[class^="repliedMessage_"] > .username_2i8Bfm,
+.member_Iy0c7A .username_d272d6 {
   filter: brightness(1.2);
   border: calc(1px * var(--enable-border)) solid;
   /*font-weight: bold;*/
@@ -59,25 +59,25 @@
   display: inline-flex;
 }
 
-.username_c19a55:hover::before,
-.base_b88801 .text_b88801 strong:hover::before,
-.name__841c8:hover::before,
+.username_2i8Bfm:hover::before,
+.base_U9Tvvz .text_U9Tvvz strong:hover::before,
+.name_rE8-46:hover::before,
 .mention.interactive:hover::before,
-[class^="repliedMessage_"] > .username_c19a55:hover::before,
-.member__5d473 .username_d272d6:hover::before {
+[class^="repliedMessage_"] > .username_2i8Bfm:hover::before,
+.member_Iy0c7A .username_d272d6:hover::before {
   background: var(--background-modifier-hover);
 }
 
-.username_c19a55:hover,
-.base_b88801 .text_b88801 strong:hover,
-.name__841c8:hover,
+.username_2i8Bfm:hover,
+.base_U9Tvvz .text_U9Tvvz strong:hover,
+.name_rE8-46:hover,
 .mention.interactive:hover,
-[class^="repliedMessage_"] > .username_c19a55:hover,
-.member__5d473 .username_d272d6:hover {
+[class^="repliedMessage_"] > .username_2i8Bfm:hover,
+.member_Iy0c7A .username_d272d6:hover {
   text-decoration: none;
 }
 
-.username_c19a55:not(.twoColorGradient_e5de78):after {
+.username_2i8Bfm:not(.twoColorGradient_HG2xvK):after {
   position: relative;
   margin: 0 0 0 8px;
   color: inherit;

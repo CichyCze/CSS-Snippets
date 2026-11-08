@@ -13,7 +13,7 @@
   margin-left: 5px;
 }
 
-.container__37e49 {
+.container_g6VwXp {
   display: flex;
   flex-direction: column;
   height: fit-content;
@@ -43,13 +43,13 @@
     }
   }
 
-  & .flex__7c0ba {
+  & .flex_hkRWAH {
     width: 100%;
     justify-content: center;
     gap: 0px;
   }
 
-  & .button__201d5:hover .contents__201d5 {
+  & .button_9OQtot:hover .contents_9OQtot {
     color: var(--interactive-hover);
   }
 }
@@ -71,7 +71,7 @@
   }
 }
 
-.panels__5e434 {
+.panels_pog62O {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -82,7 +82,7 @@
   transition: background 250ms ease-in-out;
 }
 
-body:has(.vc-spotify-pause) .panels__5e434 {
+body:has(.vc-spotify-pause) .panels_pog62O {
   background: color-mix(
     in srgb,
     var(--brand-500) 25%,
